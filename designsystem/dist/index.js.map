@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/index.ts"],"sourcesContent":["export const hello = () => {\n  \"Hello, World!\";\n}"],"mappings":";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,IAAM,QAAQ,MAAM;AACzB;AACF;","names":[]}
+{"version":3,"sources":["../src/index.ts"],"sourcesContent":["export const hello = () => \"Hello, World!\";"],"mappings":";AAAO,IAAM,QAAQ,MAAM;","names":[]}

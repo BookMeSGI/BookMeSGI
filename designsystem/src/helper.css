@@ -1,0 +1,116 @@
+.bg-paper {
+  background-color: var(--color-paper);
+}
+.bg-binding {
+  background-color: var(--color-binding);
+}
+.bg-sage {
+  background-color: var(--color-sage);
+}
+.bg-forest {
+  background-color: var(--color-forest);
+}
+.bg-ink {
+  background-color: var(--color-ink);
+}
+
+.text-paper {
+  color: var(--color-paper);
+}
+.text-binding {
+  color: var(--color-binding);
+}
+.text-sage {
+  color: var(--color-sage);
+}
+.text-forest {
+  color: var(--color-forest);
+}
+.text-ink {
+  color: var(--color-ink);
+}
+.text-success {
+  color: var(--color-success);
+}
+.text-error {
+  color: var(--color-error);
+}
+.text-warning {
+  color: var(--color-warning);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+.font-body {
+  font-family: var(--font-body);
+}
+
+.p-sm {
+  padding: var(--padding-sm);
+}
+.p-md {
+  padding: var(--padding-md);
+}
+.p-lg {
+  padding: var(--padding-lg);
+}
+
+.px-sm {
+  padding-left: var(--padding-sm);
+  padding-right: var(--padding-sm);
+}
+.px-md {
+  padding-left: var(--padding-md);
+  padding-right: var(--padding-md);
+}
+.px-lg {
+  padding-left: var(--padding-lg);
+  padding-right: var(--padding-lg);
+}
+
+.py-sm {
+  padding-top: var(--padding-sm);
+  padding-bottom: var(--padding-sm);
+}
+.py-md {
+  padding-top: var(--padding-md);
+  padding-bottom: var(--padding-md);
+}
+.py-lg {
+  padding-top: var(--padding-lg);
+  padding-bottom: var(--padding-lg);
+}
+
+/* Bordures */
+.border-thin {
+  border-width: var(--border-thin);
+}
+.border-medium {
+  border-width: var(--border-medium);
+}
+.border-large {
+  border-width: var(--border-large);
+}
+
+.border-binding {
+  border-width: var(--border-thin);
+  border-color: var(--color-binding);
+  border-style: solid;
+}
+
+.border-sage {
+  border-width: var(--border-medium);
+  border-color: var(--color-sage);
+  border-style: solid;
+}
+
+.border-highlight {
+  border-width: var(--border-large);
+  border-color: var(--color-binding);
+  border-style: solid;
+}
+
+.rouded {
+  border-radius: var(--rounded);
+}

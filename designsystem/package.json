@@ -1,5 +1,5 @@
 {
-  "name": "@BookMeSGI/design-system",
+  "name": "@bookmesgi/design-system",
   "version": "0.0.1",
   "private": false,
   "description": "Small package in js for the design system at ESGI",
@@ -20,7 +20,7 @@
     "build": "tsup"
   },
   "keywords": [],
-  "author": "Thibault ROELSTRART, NikolaÏ LEMERRE",
+  "author": "Thibault ROELSTRATE, NikolaÏ LEMERRE",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^19.2.13",

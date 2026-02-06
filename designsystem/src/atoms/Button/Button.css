@@ -1,0 +1,155 @@
+/* Button - Design System Librairie */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+/* Variantes de fond */
+
+/* Forest (vert sombre) */
+.btn-forest {
+  background-color: var(--color-forest);
+  color: var(--color-paper);
+  border-color: var(--color-forest);
+}
+
+.btn-forest:hover {
+  background-color: #3a4a3a;
+  border-color: #3a4a3a;
+}
+
+/* Forest outline */
+.btn-forest-outline {
+  background-color: var(--color-forest);
+  color: var(--color-paper);
+  border-color: var(--color-ink);
+}
+
+.btn-forest-outline:hover {
+  background-color: #3a4a3a;
+}
+
+/* Paper (fond clair) */
+.btn-paper {
+  background-color: var(--color-paper);
+  color: var(--color-forest);
+  border-color: var(--color-paper);
+}
+
+.btn-paper:hover {
+  background-color: #efe0b0;
+  border-color: #efe0b0;
+}
+
+/* Paper outline */
+.btn-paper-outline {
+  background-color: var(--color-paper);
+  color: var(--color-forest);
+  border-color: var(--color-warning);
+}
+
+.btn-paper-outline:hover {
+  background-color: #efe0b0;
+}
+
+/* Primary (forest avec contour clair) */
+.btn-primary {
+  background-color: var(--color-forest);
+  color: var(--color-paper);
+  border-color: var(--color-paper);
+}
+
+.btn-primary:hover {
+  background-color: #3a4a3a;
+}
+
+/* Disabled */
+.btn-disabled,
+.btn:disabled {
+  background-color: #a0a0a0;
+  color: #666666;
+  border-color: #a0a0a0;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.btn-disabled:hover,
+.btn:disabled:hover {
+  transform: none;
+}
+
+/* Boutons avec badge/icône "SINGLE" */
+.btn-badge {
+  padding: 0.875rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.btn-badge-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-badge-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+/* Badge Forest */
+.btn-badge-forest {
+  background-color: var(--color-forest);
+  color: var(--color-paper);
+  border-color: var(--color-ink);
+}
+
+.btn-badge-forest:hover {
+  background-color: #3a4a3a;
+}
+
+/* Badge Error (rouge brique) */
+.btn-badge-error {
+  background-color: var(--color-error);
+  color: white;
+  border-color: #6a2a22;
+}
+
+.btn-badge-error:hover {
+  background-color: #7a3228;
+}
+
+/* Badge Warning (ocre) */
+.btn-badge-warning {
+  background-color: var(--color-warning);
+  color: white;
+  border-color: #8a6a2c;
+}
+
+.btn-badge-warning:hover {
+  background-color: #a07a36;
+}

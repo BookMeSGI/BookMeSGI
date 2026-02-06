@@ -1,0 +1,103 @@
+/* Menu - Style barre de navigation en bois */
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 2.5rem;
+  background: linear-gradient(180deg, #7a5a45 0%, #6b4f3f 40%, #5a3f31 100%);
+  border: 3px solid #5a3f31;
+  border-radius: 12px;
+  box-shadow:
+    0 6px 16px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+  min-height: 70px;
+  box-sizing: border-box;
+}
+
+/* Texture bois */
+.menu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 3px,
+      rgba(0, 0, 0, 0.02) 3px,
+      rgba(0, 0, 0, 0.02) 6px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 8px,
+      rgba(0, 0, 0, 0.015) 8px,
+      rgba(0, 0, 0, 0.015) 16px
+    );
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.menu-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-logo {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  color: var(--color-paper);
+  letter-spacing: 2px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: baseline;
+}
+
+.menu-logo-icon {
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  font-size: 2.25rem;
+  margin-right: -2px;
+}
+
+.menu-nav {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-link {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  color: var(--color-paper);
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.menu-link:hover {
+  color: #fffef8;
+  transform: translateY(-1px);
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Version vide (sans contenu) */
+.menu-empty {
+  min-height: 60px;
+}

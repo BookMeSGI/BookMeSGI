@@ -11,3 +11,9 @@ nr build -w @bookmesgi/designsystem
 cd app/backoffice
 npm run dev
 ```
+
+# Installer le module dans le backoffice : 
+```shell
+cd app/backoffice
+npm install @bookmesgi/designsystem
+```

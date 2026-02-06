@@ -1,6 +1,6 @@
 import { hello } from "@bookmesgi/designsystem";
 
-export function App() {
+export default function App() {
   return (
     <div>
       <h1>Backoffice</h1>

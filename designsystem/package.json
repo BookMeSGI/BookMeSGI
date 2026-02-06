@@ -1,0 +1,25 @@
+{
+  "name": "@BookMeSGI/design-system",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Small package in js for the design system at ESGI",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Thibault ROELSTRART, NikolaÏ LEMERRE",
+  "license": "ISC"
+}

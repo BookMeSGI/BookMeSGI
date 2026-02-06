@@ -3,7 +3,7 @@
   "private": true,
   "workspaces": [
     "app/*",
-    "designsystem/*"
+    "designsystem"
   ],
   "version": "1.0.0",
   "description": "",
